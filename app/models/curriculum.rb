@@ -1,7 +1,7 @@
 class Curriculum < ApplicationRecord
   belongs_to :user
 
-validates :entry_date, presence: true
+  validates :entry_date, presence: true
   validates :name, presence: true
   validates :hours_done, presence: true
   validates :hours_target, presence: true

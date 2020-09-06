@@ -60,4 +60,3 @@ class CurriculumsController < ApplicationController
                                        :name, :hours_done, :hours_target, :modules_done, :modules_target)
   end
 end
-
