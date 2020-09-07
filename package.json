@@ -1,11 +1,6 @@
 {
   "name": "tracker-server",
   "version": "1.0.0",
-"scripts": {
-    "build": "cd client && yarn install && yarn build && cd ..",
-    "deploy": "cp -a client/build/. public/",
-    "postinstall": "yarn build && yarn deploy && echo 'Client built!'"
-  },
   "engines": {
     "yarn": "1.22.4",
     "npm": "6.14.7",
