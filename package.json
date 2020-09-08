@@ -1,0 +1,13 @@
+{
+  "name": "tracker-server",
+  "version": "1.0.0",
+  "engines": {
+    "yarn": "1.22.4",
+    "npm": "6.14.7",
+    "node": "10.16.3"
+  },
+  "main": "index.js",
+  "repository": "git@github.com:IBTechRaj/tracker-server.git",
+  "author": "ibtechraj <raj_shk@rediffmail.com>",
+  "license": "MIT"
+}
